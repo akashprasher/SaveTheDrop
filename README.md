@@ -5,7 +5,7 @@ A website about conservating water and it's importance in our life.
 ## Technology Used :
 * HTML
 * CSS
-* BOOTSTRAP
+* Bootstrap
 * JavaScript
 * Google Forms
 * Paypal Payment Integration
