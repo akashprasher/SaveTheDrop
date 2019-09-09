@@ -1,6 +1,6 @@
 # Save The Drop
 
-A website about conservating water and it's importance in our life.
+Website Theme: A website about conservating water and it's importance in our life.
 
 ## Technology Used :
 * HTML
