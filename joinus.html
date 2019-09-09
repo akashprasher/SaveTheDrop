@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Save the Drop - Join</title>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top">
+            <div class="container topnav">
+              <div class="navbar-header">
+                        <a style="display: flex;align-items:center;" class="navbar-brand" href="https://savethedrop.netlify.com"><img class="logo" src="images/logo.png" alt="logo">Save The Drop.</a>
+                </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right ">
+                  <li><a class="donate" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WUQZADSP83XSC&source=url"><img src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+    </nav>
+    <section class="sec-even desktop">
+            <div class="container quote text-justify">
+                    <h1>Join Us</h1>
+                    <h3>And <q>think</q> about future.</h3>
+                    <a class="joinus" href="https://savethedrop.netlify.com#aboutd"><button class="btn">Read More</button></a>
+            </div>
+    </section>
+    <section class="sec-even mobile">
+                <div class="container quote text-justify">
+                        <h4>Join Us</h4>
+                        <h6>And <q>think</q> about future.</h6> 
+                        <a class="joinus" href="https://savethedrop.netlify.com#aboutm"><button class="btn">Read More</button></a>
+
+                </div>
+    </section>
+    
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thanks.html';}"></iframe>
+
+    <div class="container-form container">
+      <h1 class="sec-heading desktop">Let's take the first step!</h1>
+      <h3 class="sec-heading mobile">Let's take the first step!</h3>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSffhL61XBXROZO6YJKoOMKrJfDwyKUbYTLE1dP81j7DamqJGg/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                <label for="Email Address">Email Address *</label>
+                <input type="email" name="emailAddress" placeholder="johnkarry@gmail.com" required>
+                <label for="First Name">First Name *</label>
+                <input type="text" name="entry.648625325" placeholder="John" required>
+                <label for="Last Name">Last Name</label>
+                <input type="text" name="entry.1164041902" placeholder="Karry">
+                <label for="Mobile Number">Mobile Number</label>
+                <input type="text" name="entry.1125720693" placeholder="9818892604" required>
+                <label for="org name">Organization/University/College Name</label>
+                <input type="text" name="entry.1813065593" placeholder="Central University">
+                <label for="Last Name">What do you think, what are the causes of climate change? *</label>
+                <textarea name="entry.612224899" id="" cols="30" rows="10" placeholder="Share your views." required></textarea>
+                <label for="Last Name">Do you have any Idea or solutions for the problem of Climate change? *</label>
+                <textarea name="entry.186229783" id="" cols="30" rows="10" placeholder="Share your views." required></textarea>
+                <label for="Last Name">Do you think we need this kind community?</label>
+                <textarea name="entry.240821967" id="" cols="30" rows="10" placeholder="Share your views."></textarea>
+                <input type="submit" value="Submit">
+            </form>
+            <p style="font-size: 12px;color:grey;padding-top:10px;">* marked entries are mandatory</p>
+    </div>
+    <section>
+        <div class="donatation">
+                <p style="text-align: center">Help Us to grow and maintain the site. We need fund to purchase domain.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="WUQZADSP83XSC" />
+                        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_IN/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
+    </section>
+    <footer class="footer-class">
+        <div>
+          <p class="footer-p">&copy;SaveTheDrop | <script>document.write(new Date().getFullYear())</script></p>
+        </div>
+    </footer>
+</body>
+</html>
