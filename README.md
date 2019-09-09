@@ -48,4 +48,4 @@ Before Refreshing the page we can show a thanks message and loading animation.
                     <h1>Thanks for joining Us</h1>
                     <h3>You'll be redirect to home. If not please <a href="https://savethedrop.netlify.com">Click Here</a></h3>
                     <img src="images/loading.gif">
-            </div>
+        </div>
